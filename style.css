@@ -1,0 +1,62 @@
+body {
+	margin: 0 0 0 0;
+}
+#canvas-holder {
+	position: relative;
+	display: block;
+}
+#mainCanvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+#blockCanvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+#cover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 375px;
+	height: 490px;
+	background-color: rgba(0, 0, 0, 0.6);
+	z-index: 3;
+}
+#title {
+	color: white;
+	font: 45px "Space Mono";
+	font-weight: bold;
+	z-index: 4;
+	position: absolute;
+	width: 375px;
+	height: 50px;
+	top: 45px;
+	margin-top: 0;
+	left: 0px;
+	text-shadow: -3px 3px #4b8054;
+	text-align: center;
+}
+#play-button {
+	background-color: #4b8054;
+	position: absolute;
+	width: 151px;
+	height: 151px;
+	left: 112px;
+	top: 140px;
+	z-index: 4;
+	outline: none;
+	cursor: pointer;
+	border-radius: 20px;
+	outline: none;
+	border: 4px solid white;
+	color: white;
+	font: 60px "Space Mono";
+	transition: 0.3s;
+}
+#play-button:hover {
+	background-color: #599963;
+}
